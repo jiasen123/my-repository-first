@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/hello")
     public String hello() {
-        String s1 = "改动1也修改了,现在是改动4";
+        String s1 = "改动1也修改了,现在是改动4,再次修该,现在是改动5";
         return s1;
     }
 }
